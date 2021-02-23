@@ -1,0 +1,11 @@
+.place__links {
+    display: grid;
+    justify-content: start;
+    align-content: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+    .place__links {
+        padding: 0px 16px;
+    } 
+}

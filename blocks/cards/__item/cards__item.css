@@ -1,0 +1,26 @@
+.cards__item {
+    min-height: 213px;
+    min-width: 288px;
+    list-style: none;
+}
+
+@media screen and (max-width: 1279px) {
+    .cards__photo {
+      min-height: 225px;
+      min-width: 300px;
+    }
+}    
+
+@media screen and (max-width: 1023px) {
+    .cards__photo {
+      min-height: 264px;
+      min-width: 352px;
+    }
+}    
+
+@media screen and (max-width: 767px) {
+    .cards__photo {
+      min-height: 216px;
+      min-width: 288px;
+    } 
+}   

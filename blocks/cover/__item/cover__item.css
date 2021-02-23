@@ -1,0 +1,33 @@
+.cover__item {
+    background-image: url(../../../images/__background.jpg);
+    min-height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    background-size: cover;
+    position: relative;
+    margin: 92px 48px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover__item {
+        min-height: 640px;
+        margin: 92px 0x;
+    }
+}    
+
+@media screen and (max-width: 1023px) {
+    .cover__item {
+        min-height: 480px;
+        margin: 90px 0px 88px;
+    }
+}    
+
+@media screen and (max-width: 767px) {
+    .cover__item {
+        min-height: 200px;
+        margin: 66px 0px 64;
+    } 
+} 
