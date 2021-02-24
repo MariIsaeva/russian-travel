@@ -3,25 +3,27 @@
   flex-direction: column;
   justify-content: center;
   box-sizing: border-box;
-  margin: 56px 148px 92px;
+  padding: 56px 148px 92px;
   min-width: 320px;
-  min-height: 406px; 
+  min-height: 406px;
+  margin: 0px;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1279px) {
   .lead {
-    margin: 48px 48px 92px;
+    padding: 48px 48px 92px;
   }
 }    
 
 @media screen and (max-width: 1023px) {
   .lead {
-    margin: 48px 0px 88px;
+    padding: 48px 0px 88px;
   }
 }    
 
 @media screen and (max-width: 767px) {
   .lead {
-    margin: 48px 0px 64px;
+    padding: 48px 0px 64px;
   }
 }

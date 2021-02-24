@@ -5,7 +5,7 @@
     text-decoration: none;
     margin: 0px 18px 0px 0px;
     padding: 0px;
-    color: #FFFFFF
+    color: #FFFFFF;
 }
 
 .footer__link:hover {
@@ -19,7 +19,7 @@
         line-height: 24px;
         padding-bottom: 32px;
         margin: 0px;
-        
+               
     }
     
     .footer__link:last-of-type {
