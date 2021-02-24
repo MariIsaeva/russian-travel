@@ -1,4 +1,4 @@
-.header__language {
+.language__header {
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
