@@ -11,6 +11,6 @@
 
 @media screen and (max-width: 767px) {
     .page__content {
-       grid-gap: 64px
+       grid-gap: 64px;
     } 
 }   

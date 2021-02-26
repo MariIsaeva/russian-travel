@@ -22,13 +22,12 @@
         grid-template-columns: 1fr 1fr;
         gap: 28px;
     }
-}    
+}
 
 @media screen and (max-width: 767px) {
     .place {
         grid-template-columns: 1fr;
         gap: 32px;
-       
-    } 
-}    
+    }
+}
 
