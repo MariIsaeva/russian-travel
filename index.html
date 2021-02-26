@@ -6,27 +6,29 @@
   <title>Путешествия по России</title>
   <link rel="stylesheet" href="./pages/index.css">
 </head>
-<body>
-  <div class="page">
-      <header class="header">
-        <a href="#" target="_self" class="logo">
-        <img src="images/__logo.svg" alt="Логотип Россия" class="logo__header">
+<body class="page">
+  <div class="page__conteiner">
+      <header class="header section page__header">
+        <a href="#" target="_self" class="logo logo__header">
+        <img src="images/__logo.svg" alt="Логотип Россия" class="logo__img">
         </a>
-        <ul class="language">    
-          <li><a href="#" target="_self" class="language__link language__link_active">Ru</a></li>
-          <li><a href="#" target="_self" class="language__link">En</a></li>
-        </ul>  
+        <ul class="lang">    
+          <li><a href="#" target="_self" class="lang__link lang__link_active">Ru</a></li>
+          <li><a href="#" target="_self" class="lang__link">En</a></li>
+        </ul>
       </header>  
    
-      <main class="content">
-        <section class="lead">
+      <main class="content page__content">
+        <section class="lead section section_narrow content__section">
           <h1 class="lead__title">Путешествия по России</h1>
           <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
-          <img src="images/__image.jpg" alt="Картинка. Схематичный путь на поезде от Пскова до Улан-Удэ" class="lead__image">
-          <p class="lead__caption">ваша полка — верхняя</p>
+          <figure class="lead__figure">
+            <img src="images/__image.jpg" alt="Картинка. Схематичный путь на поезде от Пскова до Улан-Удэ" class="lead__image">
+            <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+          </figure>
         </section>
 
-        <section class="intro">
+        <section class="intro section section_narrow content__section">
           <article class="intro__conteiner">
             <h2 class="intro__title">Чего мы там не видели?</h2>
             <p class="intro__paragraph">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
@@ -40,48 +42,48 @@
           </article>
         </section>
 
-        <section class="photo-grid">
-          <ul class="cards">
-            <li class="cards__item">
-              <img src="images/__item1.jpg" alt="Фотография" class="cards__photo">
+        <section class="photo-grid section content__section">
+          <ul class="photo-grid__cards">
+            <li class="photo-grid__item">
+              <img src="images/__item1.jpg" alt="Фотография" class="photo-grid__photo">
             </li>  
-            <li class="cards__item">
-              <img src="images/__item2.jpg" alt="Фотография" class="cards__photo">
+            <li class="photo-grid__item">
+              <img src="images/__item2.jpg" alt="Фотография" class="photo-grid__photo">
             </li>
-            <li class="cards__item">
-              <img src="images/__item3.jpg" alt="Фотография" class="cards__photo">
+            <li class="photo-grid__item">
+              <img src="images/__item3.jpg" alt="Фотография" class="photo-grid__photo">
             </li>
-            <li class="cards__item">
-              <img src="images/__item4.jpg" alt="Фотография" class="cards__photo">
+            <li class="photo-grid__item">
+              <img src="images/__item4.jpg" alt="Фотография" class="photo-grid__photo">
             </li>
-            <li class="cards__item">
-              <img src="images/__item5.jpg" alt="Фотография" class="cards__photo">
+            <li class="photo-grid__item">
+              <img src="images/__item5.jpg" alt="Фотография" class="photo-grid__photo">
             </li>
-            <li class="cards__item">
-              <img src="images/__item6.jpg" alt="Фотография" class="cards__photo">
+            <li class="photo-grid__item">
+              <img src="images/__item6.jpg" alt="Фотография" class="photo-grid__photo">
             </li>
-            <li class="cards__item">
-              <img src="images/__item7.jpg" alt="Фотография" class="cards__photo">
+            <li class="photo-grid__item">
+              <img src="images/__item7.jpg" alt="Фотография" class="photo-grid__photo">
             </li>
-            <li class="cards__item">
-              <img src="images/__item8.jpg" alt="Фотография" class="cards__photo">
+            <li class="photo-grid__item">
+              <img src="images/__item8.jpg" alt="Фотография" class="photo-grid__photo">
             </li>
-            <li class="cards__item">
-              <img src="images/__item9.jpg" alt="Фотография" class="cards__photo">
+            <li class="photo-grid__item">
+              <img src="images/__item9.jpg" alt="Фотография" class="photo-grid__photo">
             </li>
-            <li class="cards__item">
-              <img src="images/__item10.jpg" alt="Фотография" class="cards__photo">
+            <li class="photo-grid__item">
+              <img src="images/__item10.jpg" alt="Фотография" class="photo-grid__photo">
             </li>
-            <li class="cards__item">
-              <img src="images/__item11.jpg" alt="Фотография" class="cards__photo">
+            <li class="photo-grid__item">
+              <img src="images/__item11.jpg" alt="Фотография" class="photo-grid__photo">
             </li>
-            <li class="cards__item">
-              <img src="images/__item12.jpg" alt="Фотография" class="cards__photo">
+            <li class="photo-grid__item">
+              <img src="images/__item12.jpg" alt="Фотография" class="photo-grid__photo">
             </li>  
           </ul>
         </section>
 
-        <section class="places">
+        <section class="places section section_narrow content__section">
           <article class="place">
             <h3 class="place__title">Куршская коса</h3>
             <div class="place__links">
@@ -150,7 +152,7 @@
           </article>
         </section>
 
-        <section class="cover">
+        <section class="cover section">
           <div class="cover__item">
             <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link"></a>
             <h2 class="cover__title">До Байкала «на собаках»</h2>
@@ -159,7 +161,7 @@
         </section>
       </main>  
     
-      <footer class="footer">
+      <footer class="footer section page__footer">
         <nav class="footer__info">
           <ul class="footer__links">
             <li><a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a></li>

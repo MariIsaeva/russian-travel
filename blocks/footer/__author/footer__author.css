@@ -4,3 +4,10 @@
     line-height: 16px;
     margin: 0px;
 }
+
+@media screen and (max-width: 767px) {
+    .footer__author {
+       padding-top: 48px;
+     } 
+  }
+  

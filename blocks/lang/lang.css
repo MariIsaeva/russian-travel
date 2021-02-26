@@ -1,4 +1,4 @@
-.language {
+.lang {
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -6,4 +6,5 @@
     align-items: center;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }

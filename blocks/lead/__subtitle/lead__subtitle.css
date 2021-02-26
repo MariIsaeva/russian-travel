@@ -5,28 +5,28 @@
   margin: 0px auto;
   padding-bottom: 64px;
   text-align: center;
-  width: calc(100% - 245px*2);
+  max-width: calc(100% - 245px*2);
 }
 
 @media screen and (max-width: 1279px) {
     .lead__subtitle {
         padding-bottom: 56px;
-        width: calc(100% - 212px*2);
+        max-width: calc(100% - 212px*2);
     }
   }    
   
 @media screen and (max-width: 1023px) {
     .lead__subtitle {
       padding-bottom: 56px;
-      width: 505px;
+      max-width: calc(100% - 100px*2);
     }
 }    
   
 @media screen and (max-width: 767px) {
     .lead__subtitle {
-        padding: 0px 16px 40px;
+        padding-bottom: 40px;
         font-size: 16px;
         line-height: 20px;
-        width: 90%;
+        max-width: calc(100% - 16px*2);
     }
 }
