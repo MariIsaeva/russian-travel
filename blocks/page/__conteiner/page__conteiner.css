@@ -10,18 +10,18 @@ box-sizing: border-box;
 
 @media screen and (max-width: 1279px) {
       .page__conteiner {
-         min-width: 1024px;
+         max-width: 1024px;
       }
 }
    
 @media screen and (max-width: 1023px) {
       .page__conteiner {
-         min-width: 768px;
+         max-width: 768px;
       }
 }
    
 @media screen and (max-width: 767px) {
       .page__conteiner{
-         min-width: 320px;
+         max-width: 320px;
       }
 }   
