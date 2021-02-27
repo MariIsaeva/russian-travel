@@ -3,25 +3,4 @@
     width: 100%;
   }
 
-
-@media screen and (max-width: 1279px) {
-    .photo-grid__photo {
-      min-height: 225px;
-      min-width: 300px;
-    }
-}    
-
-@media screen and (max-width: 1023px) {
-    .photo-grid__photo {
-      min-height: 264px;
-      min-width: 352px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .photo-grid__photo {
-      min-height: 216px;
-      min-width: 288px;
-    }
-}
  
