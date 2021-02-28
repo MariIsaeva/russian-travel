@@ -11,5 +11,10 @@
         font-size: 18px;
         line-height: 20px;
     } 
-}   
+}
+
+.lang__link:hover {
+    opacity: 0.8;
+    transition: 0.35s;
+} 
 

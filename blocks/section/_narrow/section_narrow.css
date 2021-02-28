@@ -6,7 +6,13 @@
     .section_narrow {
     max-width: calc(100% - 48px*2);
     }
-} 
+}
+
+@media screen and (max-width: 1023px) {
+    .section_narrow {
+    max-width: 100%;
+    }
+}
 
 @media screen and (max-width: 767px) {
     .section_narrow {
